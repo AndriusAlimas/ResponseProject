@@ -47,7 +47,7 @@ public class MyServlet extends HttpServlet {
 			// you get this parameter from form and store to String value to use it later
 		 	String answer = request.getParameter("download");
 		 	// just simply file name, later we will use to concatinate realPath 
-	        String file_name = "java.jpg";
+	        String file_name = "java2.jpg";
 	        // using response object we set content type will be image jpeg, that we want
 	        response.setContentType("image/jpeg");
 	     
